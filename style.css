@@ -53,8 +53,11 @@ main {
 }
 .weather-details {
   font-size: 16px;
-  color: orangered;
+  color: rgb(88, 64, 55);
   line-height: 16px;
+}
+.weather-details strong {
+  color: rgb(206, 138, 138);
 }
 footer {
   border-top: 1px solid rgb(219, 164, 54);
