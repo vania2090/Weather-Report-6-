@@ -30,9 +30,7 @@ header {
   padding: 14px;
   border: none;
 }
-main {
-  padding: 0 30px;
-}
+
 .search-form-button {
   background-color: rgb(219, 164, 54);
   border: none;
@@ -40,6 +38,9 @@ main {
   padding: 14px;
   color: white;
   border-radius: 6px;
+}
+main {
+  padding: 0 30px;
 }
 .weather-data {
   display: flex;
