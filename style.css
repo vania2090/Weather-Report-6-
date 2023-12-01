@@ -1,6 +1,12 @@
 body {
   background-color: rgb(233, 179, 92);
+  font-family: "DM Serif Display", serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Noto Serif Georgian", serif;
+  font-family: "PT Mono", monospace;
+  font-family: "Rubik", sans-serif;
 }
+
 .weather-color {
   background-color: white;
   max-width: 600px;
