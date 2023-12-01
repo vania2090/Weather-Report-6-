@@ -17,6 +17,7 @@ body {
 }
 header {
   border-bottom: 1px solid white;
+  padding: 30px 0;
 }
 .search-form-input {
   background-color: rgb(244, 228, 201);
@@ -29,7 +30,7 @@ header {
   background-color: rgb(219, 164, 54);
   border: none;
   width: 70px;
-  padding: 10px;
+  padding: 14px;
   color: white;
   border-radius: 6px;
 }
