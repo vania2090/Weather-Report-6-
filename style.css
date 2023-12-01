@@ -53,11 +53,14 @@ main {
 }
 .weather-details {
   font-size: 16px;
-  color: rgb(88, 64, 55);
+  color: rgb(222, 83, 33);
   line-height: 16px;
 }
 .weather-details strong {
   color: rgb(206, 138, 138);
+}
+.weather-info {
+  display: flex;
 }
 footer {
   border-top: 1px solid rgb(219, 164, 54);
