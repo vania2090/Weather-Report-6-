@@ -17,6 +17,7 @@ a {
   padding: 40px;
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 6px;
+  text-align: center;
 }
 header {
   border-bottom: 1px solid rgb(219, 164, 54);
