@@ -44,7 +44,6 @@ main {
 }
 .weather-data {
   display: flex;
-  justify-content: space-between;
 }
 .weather-city {
   margin: 0;
