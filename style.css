@@ -17,4 +17,6 @@ body {
 }
 .search-form-input {
   background-color: rgb(244, 228, 201);
+  border-radius: 6px;
+  width: 30px;
 }
