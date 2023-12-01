@@ -9,10 +9,7 @@ body {
 a {
   color: rgb(233, 179, 92);
 }
-.weather-data {
-  display: flex;
-  justify-content: space-between;
-}
+
 .weather-color {
   background-color: white;
   max-width: 600px;
@@ -25,12 +22,16 @@ header {
   border-bottom: 1px solid rgb(219, 164, 54);
   padding: 30px 0;
 }
+
 .search-form-input {
   background-color: rgb(244, 228, 201);
   border-radius: 6px;
-  width: 450px;
+  width: 500px;
   padding: 14px;
   border: none;
+}
+main {
+  padding: 0 30px;
 }
 .search-form-button {
   background-color: rgb(219, 164, 54);
@@ -40,9 +41,16 @@ header {
   color: white;
   border-radius: 6px;
 }
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-city {
+  margin: 0;
+}
 footer {
   border-top: 1px solid rgb(219, 164, 54);
-  padding: 30px 0 0 0;
+  padding: 25px 0 0 0;
   text-align: center;
   font-size: 12px;
 }
