@@ -4,5 +4,6 @@ body {
 .weather-color {
   background-color: white;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 40px;
 }
