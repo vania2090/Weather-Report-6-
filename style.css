@@ -6,7 +6,9 @@ body {
   font-family: "PT Mono", monospace;
   font-family: "Rubik", sans-serif;
 }
-
+a {
+  color: rgb(233, 179, 92);
+}
 .weather-color {
   background-color: white;
   max-width: 600px;
@@ -22,7 +24,7 @@ header {
 .search-form-input {
   background-color: rgb(244, 228, 201);
   border-radius: 6px;
-  width: 700px;
+  width: 450px;
   padding: 14px;
   border: none;
 }
@@ -36,7 +38,7 @@ header {
 }
 footer {
   border-top: 1px solid rgb(219, 164, 54);
-  padding: 0 30px;
+  padding: 30px 0 0 0;
   text-align: center;
   font-size: 12px;
 }
