@@ -1,3 +1,6 @@
 body {
   background-color: rgb(233, 179, 92);
 }
+.weather-color {
+  background-color: white;
+}
