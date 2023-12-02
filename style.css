@@ -63,7 +63,7 @@ main {
   display: flex;
 }
 .weather-icon {
-  font-size: 42px;
+  font-size: 36px;
   margin-top: 22px;
 }
 .weather-temperature {
