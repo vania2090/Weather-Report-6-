@@ -10,11 +10,27 @@ function currentWeather(response) {
 
   cityElement.innerHTML = response.data.city;
 
-  timeElement.innerHTML = `${date.getDay()} ${date.getHours()}:${date.getMinutes()}`;
+  timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windElement.innerHTML = `${response.data.wind.speed}miles/h`;
   temperatureElement.innerHTML = Math.round(temperature);
+}
+function formatDate(date) {
+  let minutes = date.getMinutes();
+  let hours = date.getHours();
+
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let day = days[day];
+  return `${formattedDay} ${hours}:${minutes}`;
 }
 
 function searchCity(city) {
