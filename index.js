@@ -1,5 +1,6 @@
 function currentTemperature(response) {
-  console.log(response.data);
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = response.data.temperature.current;
 }
 
 function searchCity(city) {
