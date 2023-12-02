@@ -63,11 +63,11 @@ main {
   display: flex;
 }
 .weather-icon {
-  font-size: 44px;
+  font-size: 42px;
   margin-top: 22px;
 }
 .weather-temperature {
-  font-size: 72px;
+  font-size: 70px;
   font-weight: bold;
   margin-left: 10px;
 }
