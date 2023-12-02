@@ -5,6 +5,7 @@ function currentWeather(response) {
   let descriptionElement = document.querySelector("#description");
 
   cityElement.innerHTML = response.data.city;
+  descriptionElement.innerHTML = response.data.condition;
   temperatureElement.innerHTML = Math.round(temperature);
 }
 
