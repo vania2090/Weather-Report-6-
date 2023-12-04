@@ -53,3 +53,5 @@ function citySearchSubmit(event) {
 }
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", citySearchSubmit);
+
+searchCity("Sacramento");
