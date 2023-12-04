@@ -13,7 +13,7 @@ function currentWeather(response) {
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windElement.innerHTML = `${response.data.wind.speed / 0.62}miles/h`;
+  windElement.innerHTML = `${response.data.wind.speed * 0.62}miles/h`;
   temperatureElement.innerHTML = Math.round(temperature);
 }
 function formatDate(date) {
