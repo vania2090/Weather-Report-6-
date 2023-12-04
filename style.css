@@ -52,7 +52,7 @@ main {
   line-height: 48px;
 }
 .weather-details {
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(222, 83, 33);
   line-height: 16px;
 }
@@ -64,7 +64,7 @@ main {
 }
 .weather-icon {
   font-size: 36px;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 .weather-temperature {
   font-size: 70px;
