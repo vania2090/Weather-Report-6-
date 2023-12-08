@@ -80,6 +80,8 @@ main {
   margin-top: 20px;
   text-align: center;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 .weather-forecast-date {
   font-size: 16px;
