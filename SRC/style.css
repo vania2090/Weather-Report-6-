@@ -81,11 +81,16 @@ main {
   text-align: center;
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .weather-forecast-date {
   font-size: 16px;
   color: black;
+  display: flex;
+  justify-content: center;
+}
+.weather-temps {
+  display: flex;
 }
 .weather-temps-low {
   opacity: 0.6;
