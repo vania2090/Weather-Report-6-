@@ -78,19 +78,22 @@ main {
 }
 .weather-forecast {
   margin-top: 20px;
-  text-align: center;
   color: black;
   display: flex;
-  justify-content: center;
+}
+.weather-forecast-day {
+  padding: 20px;
+  /* justify-content: space-around; */
 }
 .weather-forecast-date {
   font-size: 16px;
   color: black;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .weather-temps {
   display: flex;
+  justify-content: space-around;
 }
 .weather-temps-low {
   opacity: 0.6;
