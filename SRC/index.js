@@ -17,6 +17,8 @@ function currentWeather(response) {
   windElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-icon"/>`;
+
+  getForecast(response.data.city);
 }
 function formatDate(date) {
   let minutes = date.getMinutes();
@@ -51,8 +53,12 @@ function citySearchSubmit(event) {
   let searchInput = document.querySelector("#search-form-input");
   searchCity(searchInput.value);
 }
-
-function displayForecast() {
+function getForecast(city) {
+  let apiKey = "4efbdb701a7t3129900523a73bf040o1";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query= ${city}&key=${apiKey}&units=imperial`;
+  axios.get(apiUrl).then(displayForecast);
+}
+function displayForecast(response) {
   let days = ["Sat", "Sun", "Mon", "Tues", "Wed"];
   let forecastHtml = "";
 
@@ -81,4 +87,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", citySearchSubmit);
 
 searchCity("Sacramento");
-displayForecast();
