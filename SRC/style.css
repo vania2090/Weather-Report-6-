@@ -82,7 +82,8 @@ main {
   display: flex;
 }
 .weather-forecast-day {
-  /* justify-content: space-around; */
+  justify-content: space-around;
+  margin: 20px 20px;
 }
 .weather-forecast-icon {
   width: 88px;
