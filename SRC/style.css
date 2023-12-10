@@ -82,8 +82,12 @@ main {
   display: flex;
 }
 .weather-forecast-day {
-  padding: 20px;
   /* justify-content: space-around; */
+}
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
 }
 .weather-forecast-date {
   font-size: 16px;
