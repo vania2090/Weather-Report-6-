@@ -61,12 +61,13 @@ function getForecast(city) {
 function displayForecast(response) {
   let forecastHtml = "";
 
-  response.data.daily.forEach(function (day) {
-    forecastHtml =
-      forecastHtml +
-      `
+  response.data.daily.forEach(function (day, index) {
+    if (index < 5) {
+      forecastHtml =
+        forecastHtml +
+        `
         <div class="weather-forecast-day">
-          <div class="weather-forecast-date">Tues</div>
+          <div class="weather-forecast-date">${formatDay(day.time)}</div>
 
             <img src="${day.condition.icon_url}"class="weather-forecast-icon" />
 
@@ -80,10 +81,18 @@ function displayForecast(response) {
           </div>
         </div>
     `;
+    }
   });
   let forecastElement = document.querySelector("#forecast");
   forecastElement.innerHTML = forecastHtml;
 }
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let days = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+
+  return days[date.getDay()];
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", citySearchSubmit);
 
