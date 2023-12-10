@@ -58,7 +58,7 @@ function displayForecast() {
 
   days.forEach(function (day) {
     forecastHtml =
-      forecast.innerHtml +
+      forecastHtml +
       `
       <div class="weather-forecast-day">
         <div class="weather-forecast-date">${day}</div>
