@@ -78,12 +78,13 @@ main {
 }
 .weather-forecast {
   margin-top: 20px;
-  color: black;
+  color: rgb(248, 96, 58);
   display: flex;
+  text-align: left;
 }
 .weather-forecast-day {
   justify-content: space-around;
-  margin: 20px 20px;
+  margin: 20px 20px 20px 14px;
 }
 .weather-forecast-icon {
   width: 88px;
@@ -92,7 +93,7 @@ main {
 }
 .weather-forecast-date {
   font-size: 16px;
-  color: black;
+  color: orangered;
   display: flex;
   justify-content: space-around;
 }
